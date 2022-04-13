@@ -78,6 +78,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2E52F2A27FF4E8A0053873C /* Build configuration list for PBXNativeTarget "ApolloGraphQL" */;
 			buildPhases = (
+				A2E52F35280707730053873C /* Apollo */,
 				A2E52F1827FF4E890053873C /* Sources */,
 				A2E52F1927FF4E890053873C /* Frameworks */,
 				A2E52F1A27FF4E890053873C /* Resources */,
@@ -142,6 +143,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A2E52F35280707730053873C /* Apollo */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Apollo;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$ {SCRIPT_PATH}\" / run-bundled-codegen.sh schema：download --endpoint = \"https://apollo-fullstack-tutorial.herokuapp.com/graphql\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A2E52F1827FF4E890053873C /* Sources */ = {
