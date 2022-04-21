@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct ApolloGraphQLApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  @StateObject var launchViewModel = LaunchViewModel()
+  
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
+        .environmentObject(launchViewModel)
     }
+  }
 }
