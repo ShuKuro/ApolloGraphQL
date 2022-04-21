@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
+  @EnvironmentObject var launchViewModel: LaunchViewModel
+  
+  var body: some View {
+    ScrollView {
+      ForEach(launchViewModel.launches) { launch in
+        LaunchCard(launch: launch)
+        
+      }
     }
+  }
 }
 
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+  static var previews: some View {
+    ContentView()
+  }
 }
