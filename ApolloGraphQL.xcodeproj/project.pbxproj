@@ -17,6 +17,7 @@
 		A2E52F3A280DCBC30053873C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E52F39280DCBC30053873C /* API.swift */; };
 		A2E52F3C280DCC730053873C /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E52F3B280DCC730053873C /* Network.swift */; };
 		A2E52F3E2810E3770053873C /* LaunchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E52F3D2810E3770053873C /* LaunchViewModel.swift */; };
+		A2E52F4028119F790053873C /* LaunchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E52F3F28119F790053873C /* LaunchModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		A2E52F39280DCBC30053873C /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		A2E52F3B280DCC730053873C /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		A2E52F3D2810E3770053873C /* LaunchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewModel.swift; sourceTree = "<group>"; };
+		A2E52F3F28119F790053873C /* LaunchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				A2E52F36280DBF7D0053873C /* schema.json */,
 				A2E52F1F27FF4E890053873C /* ApolloGraphQLApp.swift */,
 				A2E52F2127FF4E890053873C /* ContentView.swift */,
+				A2E52F3F28119F790053873C /* LaunchModel.swift */,
 				A2E52F2327FF4E8A0053873C /* Assets.xcassets */,
 				A2E52F37280DC0300053873C /* LaunchList.graphql */,
 				A2E52F3B280DCC730053873C /* Network.swift */,
@@ -185,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2E52F4028119F790053873C /* LaunchModel.swift in Sources */,
 				A2E52F2227FF4E890053873C /* ContentView.swift in Sources */,
 				A2E52F3A280DCBC30053873C /* API.swift in Sources */,
 				A2E52F3C280DCC730053873C /* Network.swift in Sources */,
